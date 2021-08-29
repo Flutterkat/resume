@@ -1,16 +1,20 @@
-h5, .sample-text, .description {
+h5, .sample-text, .description, .contact {
     text-shadow: 1px 0px 2px white, -1px 0px 2px white, 0px 1px 2px white, 0px -1px 2px white,
     1px 0px 3px white, -1px 0px 3px white, 0px 1px 3px white, 0px -1px 3px white;
 }
 
+h5 {
+    font-weight: bold;
+}
+
 .sample-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 3rem;
 }
 
 body {
     width: 100%;
-    padding-bottom: 150px;
+    padding-bottom: 20px;
     background-image: url("../images/bg-320.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -18,7 +22,7 @@ body {
 }
 
 .cube-control {
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 
 .badge {
@@ -37,4 +41,48 @@ body {
 .description {
     font-size: 1.25rem;
     margin-top: 15px !important;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.contact {
+    font-size: 1.2rem;
+}
+
+.bp-social {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.github {
+    padding: 2px;
+    border: 1px solid rgb(93, 42, 93);
+    border-radius: 50%;
+    background-color: rgb(93, 42, 93);
+    &-path{
+        fill: white;
+    }
+}
+
+.linkedin {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.linkedin-path {
+    fill: rgb(9, 55, 204);
+}
+
+.linkedin, .github {
+    width: 30px;
+    height: 30px;
 }
