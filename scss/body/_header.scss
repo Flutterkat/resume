@@ -1,0 +1,23 @@
+.github {
+    padding: 2px;
+    border: 1px solid rgb(93, 42, 93);
+    border-radius: 50%;
+    background-color: rgb(93, 42, 93);
+    &-path{
+        fill: white;
+    }
+}
+
+.linkedin {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.linkedin-path {
+    fill: rgb(9, 55, 204);
+}
+
+.linkedin, .github {
+    width: 30px;
+    height: 30px;
+}

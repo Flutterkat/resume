@@ -1,0 +1,81 @@
+@media (min-width: 768px){
+    h5 {
+        width: 690px; 
+    }
+
+    .bp-social {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        position: relative;
+        top: 135px;
+        width: 54px !important;
+        justify-content: center !important;
+        border-radius: 5%;
+    }
+
+    .bp-github {
+        margin: 0 !important;
+    }
+
+    .github {
+        margin-left: 5px !important;
+    }
+
+    .linkedin {
+        margin-right: 5px !important;
+    }
+
+    .linkedin, .github {
+        width: 36px;
+        height: 36px;
+        margin-bottom: 2px !important;
+    }
+
+    .sample-text {
+        margin-top: 100px !important;
+    }
+    
+    .bp {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        &-md {
+            display: flex;
+            flex-direction: column;
+            margin: 0 !important;
+        }
+    }
+
+    .row.bp-md {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .cntrl- {
+        &1 {
+            margin-top: auto !important;
+        }
+        &2 {
+            margin-bottom: auto !important;
+        }
+    }
+
+    .badge {
+        width: 100px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 10px !important;
+    }
+
+    .bp-cube {
+        margin-top: 20px !important;
+    }
+
+    body {
+        width: 100%;
+        padding-bottom: 30px !important;
+        background-image: url("../images/bg.jpg") !important;
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+}

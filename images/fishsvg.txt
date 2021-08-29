@@ -1,0 +1,15 @@
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0  2580 2010" preserveAspectRatio="xMinYMin meet" >
+                <rect id="svgEditorBackground" x="0" y="0" width="1380" height="810" style="fill: none; stroke: none;"/>
+                <path d="M711.747279,324.286953l91.765086-51.86761l-12.423071,45.752382l14.500734,50.130084Z" style="fill:dodgerblue;stroke:dodgerblue;stroke-width:1px;" id="e7_pathH" transform="matrix(1.92287 0 0 2.14718 -681.678 -372.887)"/>
+                <ellipse id="e1_ellipse" cx="558.311000" cy="323.600000" style="fill:dodgerblue;stroke:dodgerblue;stroke-width:1px;" rx="203.08" ry="86.1045"/>
+                <circle id="e8_circle" cx="426.473" cy="294.641" style="fill:white;stroke:black;stroke-width:1px;" r="15.245"/>
+                <path d="M478.94642,340.779154l93.884-29.963l-25.469,31.461l16.479,35.456Z" style="fill:dodgerblue;stroke:dodgerblue;stroke-width:1px;" id="e10_pathH" transform="matrix(0.342918 0.94216 -0.94216 0.342918 663.534 -199.654)"/>
+                <path d="M495.388,242.7l133.835,-53.933l-8.989,32.959l14.981,26.966Z" style="fill:dodgerblue;stroke:dodgerblue;stroke-width:1px;" id="e12_pathH"/>
+                <path d="M468.422,289.642a53.493,53.493,0,0,1,-2.997,81.899" style="fill:none;stroke:black;stroke-width:1px;" id="e13_circleArc"/>
+                <path d="M486.399805,290.640767a53.493,53.493,0,0,1,-2.997,81.899" style="fill:none;stroke:black;stroke-width:1px;" id="e3_circleArc"/>
+                <circle id="e14_circle" cx="345.575" cy="212.737" style="fill:deepskyblue;stroke:black;stroke-width:1px;" r="10.185000"/>
+                <circle id="e2_circle" cx="344.574" cy="277.66" style="fill:deepskyblue;stroke:black;stroke-width:1px;" r="10.185"/>
+                <circle id="e1_circle" cx="322.604" cy="245.699" style="fill:deepskyblue;stroke:black;stroke-width:1px;" r="10.185000"/><path d="M378.532,364.55a48.932,48.932,0,0,0,38.952-14.981" style="fill:none;stroke:black;stroke-width:1px;" id="e17_circleArc"/>
+                <circle id="e18_circle" cx="377.536" cy="307.621" style="fill:white;stroke:black;stroke-width:1px;" r="4.33812"/>
+                <circle id="e19_circle" cx="421.480" cy="290.6411837238" style="fill:dodgerblue;stroke:black;stroke-width:1px;" r="6.79555"/>
+            </svg>
