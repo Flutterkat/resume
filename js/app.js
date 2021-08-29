@@ -14,12 +14,14 @@ let RNG = function () {
         cube.style.transform = `rotateX(${RNG()}deg) rotateY(${RNG()}deg) rotateZ(${RNG()}deg)`;
     } else {
         clearInterval();
-    }}, 10000)
+    }}, 10000);
 }
 
 function startRotator() {
+    setTimeout (function () {
         cube.style.transition = 'transform 10s linear';
-        cube.style.transform = `rotateX(${RNG()}deg) rotateY(${RNG()}deg) rotateZ(${RNG()}deg)`;
+        cube.style.transform = `rotateX(${RNG()}deg) rotateY(${RNG()}deg)`;
+    }, 100)
 }
 
 startRotator();
