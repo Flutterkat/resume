@@ -2,10 +2,9 @@ const pages = document.getElementsByClassName('badge');
 const p = document.getElementsByClassName('description');
 const cube = document.getElementById('photo-cube');
 const cubeContainer = document.getElementsByClassName('cube-container');
-const cubeControl = document.getElementsByClassName('bp-list')[0];
 let RNG = function () {
     return Math.floor(Math.random() * (180 - (-180)) + (-180));
-  }
+  };
   
 
  function rotator() {
@@ -21,7 +20,7 @@ function startRotator() {
     setTimeout (function () {
         cube.style.transition = 'transform 10s linear';
         cube.style.transform = `rotateX(${RNG()}deg) rotateY(${RNG()}deg)`;
-    }, 100)
+    }, 100);
 }
 
 startRotator();
@@ -45,7 +44,7 @@ pages[0].addEventListener('click', ()=>{
         p[0].style.display = 'none';
         startRotator();
     }
-})
+});
 
 pages[1].addEventListener('click', ()=>{
     cube.style.transition = 'transform 1s ease-in-out';
@@ -63,7 +62,7 @@ pages[1].addEventListener('click', ()=>{
         p[1].style.display = 'none';
         startRotator();
     }
-})
+});
 
 pages[2].addEventListener('click', ()=>{
     cube.style.transition = 'transform 1s ease-in-out';
@@ -77,12 +76,12 @@ pages[2].addEventListener('click', ()=>{
             }
         }
         p[2].style.display = '';
-        return
+        return;
     } else {
         p[2].style.display = 'none';
         startRotator();
     }
-})
+});
 
 pages[3].addEventListener('click', ()=>{
     cube.style.transition = 'transform 1s ease-in-out';
@@ -100,7 +99,7 @@ pages[3].addEventListener('click', ()=>{
         p[3].style.display = 'none';
         startRotator();
     }
-})
+});
 
 pages[4].addEventListener('click', ()=>{
     cube.style.transition = 'transform 1s ease-in-out';
@@ -118,7 +117,7 @@ pages[4].addEventListener('click', ()=>{
         p[4].style.display = 'none';
         startRotator();
     }
-})
+});
 
 pages[5].addEventListener('click', ()=>{
     cube.style.transition = 'transform 1s ease-in-out';
@@ -136,4 +135,4 @@ pages[5].addEventListener('click', ()=>{
         p[5].style.display = 'none';
         startRotator();
     }
-})
+});
