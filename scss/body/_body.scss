@@ -32,10 +32,25 @@ body {
     box-shadow: 0 4px 2px rgba(12, 62, 102, 0.623);
     transition: transform .3s, box-shadow .1s;
     cursor: pointer;
-    &:hover {
-        transform: scale(1.2);
-        box-shadow: 0 9px 4px rgba(12, 62, 102, 0.623);
+}
+
+.badge:hover {
+box-shadow: 0 9px 4px rgba(12, 62, 102, 0.623);
+}
+.badge:hover, .linkedin:hover, .treehouse:hover, .github:hover {
+    transform: scale(1.2);
     }
+
+.badge:focus, .bp-github:focus, .bp-linkedin:focus {
+    transform: scale(1.2);
+    }
+
+.github, .treehouse {
+    margin-left: 5px !important;
+}
+
+.linkedin, .github {
+    margin-right: 5px !important;
 }
 
 .description {
@@ -64,7 +79,6 @@ body {
 }
 
 .github {
-    padding: 2px;
     border: 1px solid rgb(93, 42, 93);
     border-radius: 50%;
     background-color: rgb(93, 42, 93);
@@ -73,16 +87,27 @@ body {
     }
 }
 
+.treehouse, .github {
+    padding: 2px;
+}
+
 .linkedin {
     background-color: white;
     border: 1px solid white;
     border-radius: 5px;
 }
+
+.treehouse {
+    border: 2px solid rgb(44, 207, 99);
+    background-color: rgb(4, 102, 36);;
+    border-radius: 50%;
+}
+
 .linkedin-path {
     fill: rgb(9, 55, 204);
 }
 
-.linkedin, .github {
+.linkedin, .github, .treehouse {
     width: 30px;
     height: 30px;
 }

@@ -5,10 +5,10 @@
   .bp-github {
     margin: 0 !important; }
 
-  .github {
+  .github, .treehouse {
     margin-left: 5px !important; }
 
-  .linkedin {
+  .linkedin, .github {
     margin-right: 5px !important; }
 
   .linkedin, .github {
@@ -400,9 +400,21 @@ body {
   box-shadow: 0 4px 2px rgba(12, 62, 102, 0.623);
   transition: transform .3s, box-shadow .1s;
   cursor: pointer; }
-  .badge:hover {
-    transform: scale(1.2);
-    box-shadow: 0 9px 4px rgba(12, 62, 102, 0.623); }
+
+.badge:hover {
+  box-shadow: 0 9px 4px rgba(12, 62, 102, 0.623); }
+
+.badge:hover, .linkedin:hover, .treehouse:hover, .github:hover {
+  transform: scale(1.2); }
+
+.badge:focus, .bp-github:focus, .bp-linkedin:focus {
+  transform: scale(1.2); }
+
+.github, .treehouse {
+  margin-left: 5px !important; }
+
+.linkedin, .github {
+  margin-right: 5px !important; }
 
 .description {
   font-size: 1.25rem;
@@ -425,22 +437,29 @@ body {
   padding-left: 0; }
 
 .github {
-  padding: 2px;
   border: 1px solid #5d2a5d;
   border-radius: 50%;
   background-color: #5d2a5d; }
   .github-path {
     fill: white; }
 
+.treehouse, .github {
+  padding: 2px; }
+
 .linkedin {
   background-color: white;
   border: 1px solid white;
   border-radius: 5px; }
 
+.treehouse {
+  border: 2px solid #2ccf63;
+  background-color: #046624;
+  border-radius: 50%; }
+
 .linkedin-path {
   fill: #0937cc; }
 
-.linkedin, .github {
+.linkedin, .github, .treehouse {
   width: 30px;
   height: 30px; }
 
