@@ -1,72 +1,3 @@
-@media (min-width: 768px) {
-  h5 {
-    width: 690px; }
-
-  .bp-github {
-    margin: 0 !important; }
-
-  .github, .treehouse {
-    margin-left: 5px !important; }
-
-  .linkedin, .github {
-    margin-right: 5px !important; }
-
-  .linkedin, .github {
-    width: 36px;
-    height: 36px;
-    margin-bottom: 2px !important; }
-
-  .sample-text {
-    margin-top: 100px !important; }
-
-  .bp {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 75px !important; }
-    .bp-md {
-      display: flex;
-      flex-direction: column;
-      margin: 0 !important; }
-
-  .row.bp-md {
-    margin-left: auto !important;
-    margin-right: auto !important; }
-
-  .cntrl-1 {
-    margin-top: auto !important; }
-  .cntrl-2 {
-    margin-bottom: auto !important; }
-
-  .badge {
-    font-size: 1.2rem !important;
-    width: 150px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    margin-bottom: 10px !important; }
-
-  .bp-cube {
-    margin-top: 20px !important; }
-
-  body {
-    width: 100%;
-    background-image: url("../images/bg.jpg") !important;
-    background-size: cover;
-    background-repeat: no-repeat; }
-
-  .footer-heading {
-    text-align: center !important;
-    margin-bottom: 1.5rem !important; }
-
-  .bp-social {
-    justify-content: center !important; }
-
-  .contact {
-    text-align: center !important; }
-
-  .footer-grid {
-    display: grid !important;
-    grid-template-rows: 1fr; } }
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -372,6 +303,75 @@ template {
 [hidden] {
   display: none; }
 
+@media (min-width: 768px) {
+  h5 {
+    width: 690px; }
+
+  .bp-github {
+    margin: 0 !important; }
+
+  .github, .treehouse {
+    margin-left: 5px !important; }
+
+  .linkedin, .github {
+    margin-right: 5px !important; }
+
+  .linkedin, .github {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 2px !important; }
+
+  .sample-text {
+    margin-top: 100px !important; }
+
+  .bp {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 75px !important; }
+    .bp-md {
+      display: flex;
+      flex-direction: column;
+      margin: 0 !important; }
+
+  .row.bp-md {
+    margin-left: auto !important;
+    margin-right: auto !important; }
+
+  .cntrl-1 {
+    margin-top: auto !important; }
+  .cntrl-2 {
+    margin-bottom: auto !important; }
+
+  .badge {
+    font-size: 1.2rem !important;
+    width: 150px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-bottom: 10px !important; }
+
+  .bp-cube {
+    margin-top: 20px !important; }
+
+  body {
+    width: 100%;
+    background-image: url("../images/bg-768-test.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+  .footer-heading {
+    text-align: center !important;
+    margin-bottom: 1.5rem !important; }
+
+  .bp-social {
+    justify-content: center !important; }
+
+  .contact {
+    text-align: center !important; }
+
+  .footer-grid {
+    display: grid !important;
+    grid-template-rows: 1fr; } }
 h5, .sample-text, .description, .contact {
   text-shadow: 1px 0px 2px white, -1px 0px 2px white, 0px 1px 2px white, 0px -1px 2px white, 1px 0px 3px white, -1px 0px 3px white, 0px 1px 3px white, 0px -1px 3px white; }
 
@@ -385,7 +385,7 @@ h5 {
 body {
   width: 100%;
   padding-bottom: 20px;
-  background-image: url("../images/bg-320.jpg");
+  background-image: url("../images/bg-320-test.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white; }
