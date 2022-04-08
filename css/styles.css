@@ -636,7 +636,8 @@ footer p {
   margin-bottom: 10px; }
 
 .contact div {
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin: 10px; }
 
 .contact p, .job h3, .iaes h2, .contact h2, .personal-summary h2, .work-experience-heading {
   margin-top: 5px;
