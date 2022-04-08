@@ -103,10 +103,6 @@ footer p {
     display:block;
 }
 
-.bulleted {
-    list-style:disc;
-}
-
 .resume-download, .bulleted li {
     margin-bottom: 10px;
 }
@@ -127,43 +123,4 @@ footer p {
 
 .cert {
     margin: 5px;
-}
-
-
-@media screen and (min-width: 700px) {
-
-    .contact div {
-        display: flex;
-        margin-right: 0px;
-    }
-
-    .ul-break {
-        justify-content: space-around;
-    }
-
-    .ul-skills {
-        margin: 15px !important;
-        list-style-type: none;
-    }
-
-    nav .ul-break div, .ul-break{
-        display: flex !important;
-    }
-
-    .center-text {
-        text-align: center;
-    }
-
-    .flex {
-        margin-left: auto;
-        margin-right: auto;
-        display:flex;
-        flex-direction: row;
-    }
-
-    .cert {
-        margin: 3px;
-        width: 200px;
-        height: 200px;
-    }
 }

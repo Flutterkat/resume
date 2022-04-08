@@ -53,43 +53,9 @@
     color: red;
   }
   
-
-
-  .header-home {
-    background: url('../images/header.jpg') no-repeat top center ;
-    background-size: cover;
-  }
-  
-  .header-experience {
-    background: url('../images/tech-image.jpg') no-repeat top center ;
-    background-size: cover;
-  }
-  
-  .header-hobbies {
-    background: url('../images/hobby-background.jpg') no-repeat top center ;
-    background-size: cover;
-  }
-  
   header {
     text-align: center;
     overflow: hidden;
-    padding-top: 60px;
-  }
-  header {
-    line-height: 1.5;
-  }
-
-  header .profile-image {
-    margin-top: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid blue;
-    transition: all .5s;
-  }
-  header .profile-image:hover {
-    transform: scale(1.5) rotate(-360deg);
-    border: 3px solid red;
   }
 
   .resume-image {
@@ -106,32 +72,10 @@
     }
   }
 
-  .tag {
-    background-color: #efefef;
-    color: black;
-    padding: 10px;
-    border-radius: 5px;
-    display: table;
-    margin: 10px auto;
-  } 
-
   .location {
     background-color: rgb(255, 255, 255);
     color: rgb(2, 2, 2);
     text-align: center;
-  }
-  
-  .card-background {
-    margin: 30px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
-    max-height: fit-content;
-    text-align: center;
-    background: rgb(139, 157, 241);
-    border-bottom: 4px solid #ccc;
-    border-radius: 6px;
-    transition: all .5s;
-    align-content: center;
   }
   
   .card-goals {
@@ -226,6 +170,20 @@
     padding: 20px 0 40px 0px;
   }
 
+  .flex {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cert-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cert {
+    width:100%;
+  }
+
   .footer-links {
     margin-left: auto;
     margin-right: auto;
@@ -261,12 +219,6 @@
     opacity: .4;
     transition: all .5s;
   }
-  a.twitter {
-    background-image: url(../images/twitter.svg);
-  }
-  a.linkedin {
-    background-image: url(../images/linkedin.svg);
-  }
   a.github {
     background-image: url(../images/github.svg);
   }
@@ -282,11 +234,45 @@
     
     .flex {
         display: -ms-flexbox;      /* TWEENER - IE 10 */
-        display: flex; 
+        display: flex;
+        flex-direction: column;
         max-width: 1200px;
         -ms-flex-pack: distribute;
         justify-content: space-around;
         margin: 0 auto;
+    }
+
+    .cert-wrap {
+      display: flex;
+      flex-direction: row;
+      max-width: 800px;
+    }
+
+    .fewd-cert {
+      margin-top: auto !important;
+      margin-bottom: auto !important;
+    }
+
+    .contact div {
+        display: flex;
+        margin-right: 0px;
+    }
+
+    .ul-break {
+        justify-content: space-around;
+    }
+
+    .ul-skills {
+        margin: 15px !important;
+        list-style-type: none;
+    }
+
+    nav .ul-break div, .ul-break{
+        display: flex !important;
+    }
+
+    .center-text {
+        text-align: center;
     }
   
     .header-experience, .header-hobbies, .header-home {
@@ -309,8 +295,6 @@
   
     footer {
       font-size: 1.3em;
-      max-width: 1200px;
-      margin: 40px auto;
     }
   
   }
