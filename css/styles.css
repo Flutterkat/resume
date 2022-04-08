@@ -516,7 +516,9 @@ a.social:hover {
   .cert-wrap {
     display: flex;
     flex-direction: row;
-    max-width: 800px; }
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto; }
 
   .fewd-cert {
     margin-top: auto !important;
