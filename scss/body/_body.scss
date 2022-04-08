@@ -57,61 +57,6 @@
     text-align: center;
     overflow: hidden;
   }
-
-  .resume-image {
-    margin-top: 50px;
-    margin-left: auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid blue;
-    transition: all .5s;
-    &:hover {
-    transform: scale(1.5) rotate(-360deg);
-    border: 3px solid red;
-    }
-  }
-
-  .location {
-    background-color: rgb(255, 255, 255);
-    color: rgb(2, 2, 2);
-    text-align: center;
-  }
-  
-  .card-goals {
-    margin: 30px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
-    text-align: center;
-    background: rgb(139, 157, 241);
-    border-bottom: 4px solid #ccc;
-    border-radius: 6px;
-    transition: all .5s;
-  }
-  
-  .card-tinkering {
-    margin: 30px;
-    padding: 20px 40px 40px;
-    max-width: 500px;
-    max-height: fit-content;
-    text-align: center;
-    background: rgb(139, 157, 241);
-    border-bottom: 4px solid #ccc;
-    border-radius: 6px;
-    transition: all .5s;
-  }
-  
-  .card-background:hover {
-    border-color: green;
-  }
-  
-  .card-goals:hover {
-    border-color: green;
-  }
-  
-  .card-tinkering:hover {
-    border-color: green;
-  }
   
   ul.skills {
     padding: 0;
@@ -135,31 +80,6 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
-  }
-  
-  .my-computer {
-    width: 175px;
-    height: 200px;
-    border-radius: 50%; 
-    align-content: center;
-    border: 3px solid white;
-    margin: 10px;
-  }
-  
-  .my-computer:hover {
-    transform: scale(2.0)
-  }
-  
-  .car {
-    width: 200px;
-    height: 150px;
-    border-radius: 50%;
-    border: 3px solid white;
-    margin: 10px;
-  }
-  
-  .car:hover {
-    transform: scale(2.0);
   }
   
   footer {
