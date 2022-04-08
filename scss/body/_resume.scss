@@ -1,0 +1,169 @@
+body {
+    width: fit-content;
+}
+
+.resume-grid, .personal-summary p, .inner-job, .bulleted, .by-line p {
+    margin-left: 10px;
+}
+
+.resume-grid, .personal-summary p, .inner-job {
+    margin-right: 10px;
+}
+
+.personal-summary p, .job h3, .iaes h2, .contact h2, .personal-summary h2, .work-experience-heading, .resume-skills {
+    text-align: left !important;
+}
+
+.comp-date, .job {
+    display: flex;
+}
+
+.contact div {
+    display: block;
+}
+
+.resume-grid {
+    border: 1px solid black;
+    & h2 {
+        background-color: gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.resume-title {
+    margin-top: 50px;
+}
+
+.work-experience {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "schwab"
+                            "swift"
+                            "rgis"
+                            "sch"
+                            "c2c";
+}
+
+.comp-date {
+    justify-content: space-between;
+}
+
+
+.c2c {
+    grid-area: c2c;
+    border-top: none !important;
+}
+
+.sch {
+    grid-area: sch;
+}
+
+.rgis {
+    grid-area: rgis;
+}
+
+.swift {
+    grid-area: swift;
+}
+
+.schwab {
+    grid-area: schwab;
+}
+
+.job {
+    border-bottom: 1px solid black;
+}
+
+.inner-job, .main-nav, footer {
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+}
+
+.job h3, .iaes h2, .contact h2, .personal-summary h2, .work-experience-heading, .resume-download  {
+    color: blue !important;
+}
+
+.contact h2, .personal-summary h2, .work-experience-heading, .iaes h2 {
+    padding-left: 10px !important;
+}
+
+.iaes-grid .bulleted li, .resume-download{
+    margin-top: 10px;
+}
+
+.bulleted {
+    padding-left: 20px;
+}
+
+.inner-job .ul-break {
+    display:block;
+}
+
+.bulleted {
+    list-style:disc;
+}
+
+.resume-download, .bulleted li {
+    margin-bottom: 10px;
+}
+
+.contact div {
+    justify-content: space-around;
+}
+
+.contact p, .job h3, .iaes h2, .contact h2, .personal-summary h2, .work-experience-heading {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.by-line p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cert {
+    margin: 5px;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    .contact div {
+        display: flex;
+        margin-right: 0px;
+    }
+
+    .ul-break {
+        justify-content: space-around;
+    }
+
+    .ul-skills {
+        margin: 15px !important;
+        list-style-type: none;
+    }
+
+    nav .ul-break div, .ul-break{
+        display: flex !important;
+    }
+
+    .center-text {
+        text-align: center;
+    }
+
+    .flex {
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        flex-direction: row;
+    }
+
+    .cert {
+        margin: 3px;
+        width: 200px;
+        height: 200px;
+    }
+}
